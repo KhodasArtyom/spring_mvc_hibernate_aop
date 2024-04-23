@@ -1,4 +1,3 @@
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 
@@ -25,7 +24,13 @@
         </tr>
 
     </c:forEach>
+
+
 </table>
+<br>
+
+<input type="button" value="Add"
+       onclick="window.location.href = 'addNewEmployee'"/>
 
 </body>
 
